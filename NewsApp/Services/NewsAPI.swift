@@ -24,4 +24,11 @@ struct NewsAPI {
         try await fetchArticles(from: generalNewsURL(from: category))
     }
     
+    private func generalNewsURL(from category: Category) -> URL {
+        var url = "https://newsapi.org/v2/top-headlines?"
+        url += "apiKey=\(apiKey)"
+        url += "&language=en"
+        url += "&category=\(category.rawValue)"
+        return URL(string: url)!
+    }
 }
