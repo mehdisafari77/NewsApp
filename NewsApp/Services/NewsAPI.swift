@@ -24,6 +24,19 @@ struct NewsAPI {
         try await fetchArticles(from: generalNewsURL(from: category))
     }
     
+    func search(for query: String) async throws -> [Article] {
+        
+        let (data, respnse) = try await session.data(from: url)
+        
+        guard let response = response as? HTTPURLResponse else {
+            throw generateErrorCode(description: "Bad Response")
+        }
+    }
+    
+    private func generateErrorCode(code: Int = 1, description: String) -> Error {
+        NSError(domain: "NewsAPI", code: code, userInfo: [NSLocalizedDescriptionKey: description])
+    }
+    
     private func generalNewsURL(from category: Category) -> URL {
         var url = "https://newsapi.org/v2/top-headlines?"
         url += "apiKey=\(apiKey)"
