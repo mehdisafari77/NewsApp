@@ -2,7 +2,7 @@
 //  DataStore.swift
 //  NewsApp
 //
-//  Created by Gino Tasis on 3/22/22.
+//  Created by Mehdi MMS on 23/03/2022.
 //
 
 import Foundation
