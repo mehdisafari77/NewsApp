@@ -60,6 +60,7 @@ struct Source {
 extension Source: Codable {}
 extension Source: Equatable {}
 
+
 extension Article {
     static var previewData: [Article] {
         let previewDataURL = Bundle.main.url(forResource: "news", withExtension: "json")!
@@ -69,7 +70,8 @@ extension Article {
         // using this format we will conform to the swift native date type
         jsonDecoder.dateDecodingStrategy = .iso8601
         
-        let apiResponses = try! jsonDecoder.decode(NewsAPIResponse.self, from: data)
-        return apiResponses.articles ?? []
+        let apiResponse = try!
+            jsonDecoder.decode(NewsAPIRespnse.self, from: data)
+        return apiResponse.articles ?? []
     }
 }
