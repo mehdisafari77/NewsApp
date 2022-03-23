@@ -21,7 +21,7 @@ struct NewsAPI {
     }()
     
     func fetch(from category: Category) async throws -> [Article] {
-        try await fetchArticles(from: generralNewsURL(from: category))
+        try await fetchArticles(from: generalNewsURL(from: category))
     }
     
 }
