@@ -21,6 +21,7 @@
 		B56ED15727EBD9E20086A2FD /* ArticleSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56ED15627EBD9E20086A2FD /* ArticleSearchViewModel.swift */; };
 		B56ED15C27EBF9720086A2FD /* news.json in Resources */ = {isa = PBXBuildFile; fileRef = B56ED15B27EBF9720086A2FD /* news.json */; };
 		B56ED15E27EBF99B0086A2FD /* NewsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56ED15D27EBF99B0086A2FD /* NewsTabView.swift */; };
+		B56ED16127EBF9F30086A2FD /* ArticleRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56ED16027EBF9F30086A2FD /* ArticleRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		B56ED15627EBD9E20086A2FD /* ArticleSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleSearchViewModel.swift; sourceTree = "<group>"; };
 		B56ED15B27EBF9720086A2FD /* news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = news.json; sourceTree = "<group>"; };
 		B56ED15D27EBF99B0086A2FD /* NewsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTabView.swift; sourceTree = "<group>"; };
+		B56ED16027EBF9F30086A2FD /* ArticleRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				B56ED15D27EBF99B0086A2FD /* NewsTabView.swift */,
+				B56ED16027EBF9F30086A2FD /* ArticleRowView.swift */,
 			);
 			path = TabViews;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				B56ED15E27EBF99B0086A2FD /* NewsTabView.swift in Sources */,
 				B56ED15727EBD9E20086A2FD /* ArticleSearchViewModel.swift in Sources */,
 				B56ED14B27EBC8CD0086A2FD /* Category.swift in Sources */,
+				B56ED16127EBF9F30086A2FD /* ArticleRowView.swift in Sources */,
 				B56ED14D27EBC8D30086A2FD /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
