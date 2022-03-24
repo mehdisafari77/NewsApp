@@ -160,7 +160,6 @@
 				B56ED16027EBF9F30086A2FD /* ArticleRowView.swift */,
 				B56ED16227EBFA140086A2FD /* ArticleListView.swift */,
 				B56ED15D27EBF99B0086A2FD /* NewsTabView.swift */,
-				B56ED17027EBFB940086A2FD /* SafariView.swift */,
 			);
 			path = NewsTab;
 			sourceTree = "<group>";
@@ -186,6 +185,7 @@
 			children = (
 				B56ED16C27EBFB3F0086A2FD /* EmptyPlaceholderView.swift */,
 				B56ED16E27EBFB5B0086A2FD /* RetryView.swift */,
+				B56ED17027EBFB940086A2FD /* SafariView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
