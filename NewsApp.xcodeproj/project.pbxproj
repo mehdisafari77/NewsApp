@@ -27,6 +27,7 @@
 		B56ED16A27EBFAE30086A2FD /* SearchHistoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56ED16927EBFAE30086A2FD /* SearchHistoryListView.swift */; };
 		B56ED16D27EBFB3F0086A2FD /* EmptyPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56ED16C27EBFB3F0086A2FD /* EmptyPlaceholderView.swift */; };
 		B56ED16F27EBFB5B0086A2FD /* RetryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56ED16E27EBFB5B0086A2FD /* RetryView.swift */; };
+		B56ED17127EBFB940086A2FD /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56ED17027EBFB940086A2FD /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		B56ED16927EBFAE30086A2FD /* SearchHistoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHistoryListView.swift; sourceTree = "<group>"; };
 		B56ED16C27EBFB3F0086A2FD /* EmptyPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyPlaceholderView.swift; sourceTree = "<group>"; };
 		B56ED16E27EBFB5B0086A2FD /* RetryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetryView.swift; sourceTree = "<group>"; };
+		B56ED17027EBFB940086A2FD /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 				B56ED16027EBF9F30086A2FD /* ArticleRowView.swift */,
 				B56ED16227EBFA140086A2FD /* ArticleListView.swift */,
 				B56ED15D27EBF99B0086A2FD /* NewsTabView.swift */,
+				B56ED17027EBFB940086A2FD /* SafariView.swift */,
 			);
 			path = NewsTab;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				B56ED16327EBFA140086A2FD /* ArticleListView.swift in Sources */,
 				B56ED13627EBC4D60086A2FD /* NewsAppApp.swift in Sources */,
 				B56ED14927EBC6F30086A2FD /* NewsAPI.swift in Sources */,
+				B56ED17127EBFB940086A2FD /* SafariView.swift in Sources */,
 				B56ED15E27EBF99B0086A2FD /* NewsTabView.swift in Sources */,
 				B56ED15727EBD9E20086A2FD /* ArticleSearchViewModel.swift in Sources */,
 				B56ED16827EBFAC00086A2FD /* SearchTabView.swift in Sources */,
