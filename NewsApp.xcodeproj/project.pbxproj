@@ -20,6 +20,7 @@
 		B56ED15527EBD9D50086A2FD /* ArticleBookMarkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56ED15427EBD9D50086A2FD /* ArticleBookMarkViewModel.swift */; };
 		B56ED15727EBD9E20086A2FD /* ArticleSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56ED15627EBD9E20086A2FD /* ArticleSearchViewModel.swift */; };
 		B56ED15C27EBF9720086A2FD /* news.json in Resources */ = {isa = PBXBuildFile; fileRef = B56ED15B27EBF9720086A2FD /* news.json */; };
+		B56ED15E27EBF99B0086A2FD /* NewsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56ED15D27EBF99B0086A2FD /* NewsTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		B56ED15427EBD9D50086A2FD /* ArticleBookMarkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleBookMarkViewModel.swift; sourceTree = "<group>"; };
 		B56ED15627EBD9E20086A2FD /* ArticleSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleSearchViewModel.swift; sourceTree = "<group>"; };
 		B56ED15B27EBF9720086A2FD /* news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = news.json; sourceTree = "<group>"; };
+		B56ED15D27EBF99B0086A2FD /* NewsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,8 +132,17 @@
 		B56ED14727EBC6A70086A2FD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B56ED15F27EBF9A10086A2FD /* TabViews */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		B56ED15F27EBF9A10086A2FD /* TabViews */ = {
+			isa = PBXGroup;
+			children = (
+				B56ED15D27EBF99B0086A2FD /* NewsTabView.swift */,
+			);
+			path = TabViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +223,7 @@
 				B56ED13827EBC4D60086A2FD /* ContentView.swift in Sources */,
 				B56ED13627EBC4D60086A2FD /* NewsAppApp.swift in Sources */,
 				B56ED14927EBC6F30086A2FD /* NewsAPI.swift in Sources */,
+				B56ED15E27EBF99B0086A2FD /* NewsTabView.swift in Sources */,
 				B56ED15727EBD9E20086A2FD /* ArticleSearchViewModel.swift in Sources */,
 				B56ED14B27EBC8CD0086A2FD /* Category.swift in Sources */,
 				B56ED14D27EBC8D30086A2FD /* Article.swift in Sources */,
