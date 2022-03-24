@@ -24,6 +24,7 @@
 		B56ED16127EBF9F30086A2FD /* ArticleRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56ED16027EBF9F30086A2FD /* ArticleRowView.swift */; };
 		B56ED16327EBFA140086A2FD /* ArticleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56ED16227EBFA140086A2FD /* ArticleListView.swift */; };
 		B56ED16827EBFAC00086A2FD /* SearchTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56ED16727EBFAC00086A2FD /* SearchTabView.swift */; };
+		B56ED16A27EBFAE30086A2FD /* SearchHistoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56ED16927EBFAE30086A2FD /* SearchHistoryListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		B56ED16027EBF9F30086A2FD /* ArticleRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRowView.swift; sourceTree = "<group>"; };
 		B56ED16227EBFA140086A2FD /* ArticleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListView.swift; sourceTree = "<group>"; };
 		B56ED16727EBFAC00086A2FD /* SearchTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTabView.swift; sourceTree = "<group>"; };
+		B56ED16927EBFAE30086A2FD /* SearchHistoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHistoryListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				B56ED16727EBFAC00086A2FD /* SearchTabView.swift */,
+				B56ED16927EBFAE30086A2FD /* SearchHistoryListView.swift */,
 			);
 			path = SearchTab;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 			files = (
 				B56ED15127EBC8E50086A2FD /* DataStore.swift in Sources */,
 				B56ED15527EBD9D50086A2FD /* ArticleBookMarkViewModel.swift in Sources */,
+				B56ED16A27EBFAE30086A2FD /* SearchHistoryListView.swift in Sources */,
 				B56ED14F27EBC8DD0086A2FD /* NewsAPIResponse.swift in Sources */,
 				B56ED15327EBD9C70086A2FD /* ArticleNewsViewModel.swift in Sources */,
 				B56ED13827EBC4D60086A2FD /* ContentView.swift in Sources */,
