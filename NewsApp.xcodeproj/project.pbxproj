@@ -136,19 +136,35 @@
 		B56ED14727EBC6A70086A2FD /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B56ED16027EBF9F30086A2FD /* ArticleRowView.swift */,
-				B56ED16227EBFA140086A2FD /* ArticleListView.swift */,
-				B56ED15F27EBF9A10086A2FD /* TabViews */,
+				B56ED16627EBFA5A0086A2FD /* BookMarksTab */,
+				B56ED16527EBFA430086A2FD /* SearchTab */,
+				B56ED16427EBFA3E0086A2FD /* NewsTab */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		B56ED15F27EBF9A10086A2FD /* TabViews */ = {
+		B56ED16427EBFA3E0086A2FD /* NewsTab */ = {
 			isa = PBXGroup;
 			children = (
+				B56ED16027EBF9F30086A2FD /* ArticleRowView.swift */,
+				B56ED16227EBFA140086A2FD /* ArticleListView.swift */,
 				B56ED15D27EBF99B0086A2FD /* NewsTabView.swift */,
 			);
-			path = TabViews;
+			path = NewsTab;
+			sourceTree = "<group>";
+		};
+		B56ED16527EBFA430086A2FD /* SearchTab */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SearchTab;
+			sourceTree = "<group>";
+		};
+		B56ED16627EBFA5A0086A2FD /* BookMarksTab */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BookMarksTab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
