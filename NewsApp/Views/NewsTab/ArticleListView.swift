@@ -42,4 +42,3 @@ struct ArticleListView_Previews: PreviewProvider {
         }
     }
 }
-

@@ -124,4 +124,3 @@ struct ArticleRowView_Previews: PreviewProvider {
         .environmentObject(articleBookmarkVM)
     }
 }
-
