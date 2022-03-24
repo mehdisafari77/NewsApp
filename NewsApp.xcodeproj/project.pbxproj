@@ -19,6 +19,7 @@
 		B56ED15327EBD9C70086A2FD /* ArticleNewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56ED15227EBD9C70086A2FD /* ArticleNewsViewModel.swift */; };
 		B56ED15527EBD9D50086A2FD /* ArticleBookMarkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56ED15427EBD9D50086A2FD /* ArticleBookMarkViewModel.swift */; };
 		B56ED15727EBD9E20086A2FD /* ArticleSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56ED15627EBD9E20086A2FD /* ArticleSearchViewModel.swift */; };
+		B56ED15C27EBF9720086A2FD /* news.json in Resources */ = {isa = PBXBuildFile; fileRef = B56ED15B27EBF9720086A2FD /* news.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		B56ED15227EBD9C70086A2FD /* ArticleNewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleNewsViewModel.swift; sourceTree = "<group>"; };
 		B56ED15427EBD9D50086A2FD /* ArticleBookMarkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleBookMarkViewModel.swift; sourceTree = "<group>"; };
 		B56ED15627EBD9E20086A2FD /* ArticleSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleSearchViewModel.swift; sourceTree = "<group>"; };
+		B56ED15B27EBF9720086A2FD /* news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = news.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,9 +72,9 @@
 				B56ED13527EBC4D60086A2FD /* NewsAppApp.swift */,
 				B56ED14427EBC6650086A2FD /* Models */,
 				B56ED14727EBC6A70086A2FD /* Views */,
-				B56ED14627EBC6710086A2FD /* Resources */,
 				B56ED14327EBC65E0086A2FD /* ViewModels */,
 				B56ED14527EBC6690086A2FD /* Services */,
+				B56ED14627EBC6710086A2FD /* Resources */,
 				B56ED13727EBC4D60086A2FD /* ContentView.swift */,
 				B56ED13B27EBC4D70086A2FD /* Preview Content */,
 			);
@@ -119,6 +121,7 @@
 		B56ED14627EBC6710086A2FD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B56ED15B27EBF9720086A2FD /* news.json */,
 				B56ED13927EBC4D70086A2FD /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -189,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B56ED15C27EBF9720086A2FD /* news.json in Resources */,
 				B56ED13D27EBC4D70086A2FD /* Preview Assets.xcassets in Resources */,
 				B56ED13A27EBC4D70086A2FD /* Assets.xcassets in Resources */,
 			);
