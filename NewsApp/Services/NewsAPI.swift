@@ -12,7 +12,7 @@ struct NewsAPI {
     static let shared = NewsAPI()
     private init() {}
     
-    private let apiKey = "d93fc62d45a7473d9464eb2ac8f9a02a"
+    private let apiKey = "154df729ec3f4e488025288e328897af"
     private let session = URLSession.shared
     private let jsonDecoder: JSONDecoder = {
         let decoder = JSONDecoder()
@@ -22,20 +22,20 @@ struct NewsAPI {
     
     func fetch(from category: Category) async throws -> [Article] {
         try await fetchArticles(from: generalNewsURL(from: category))
+
     }
     
     func search(for query: String) async throws -> [Article] {
-        let (data, respnse) = try await session.data(from: url)
+        try await fetchArticles(from: generateSearchURL(from: query))
         
-        guard let response = response as? HTTPURLResponse else {
-            throw generateErrorCode(description: "Bad Response")
-        }
     }
     
     private func fetchArticles(from url: URL) async throws -> [Article] {
+        
         let (data, response) = try await session.data(from: url)
         
         guard let response = response as? HTTPURLResponse else {
+            
             throw generateErrorCode(description: "Bad Response")
         }
         
@@ -55,6 +55,10 @@ struct NewsAPI {
         }
         
     }
+        // created helper function so that we dont have to always type it out
+    private func generateErrorCode(code: Int = 1, description: String) -> Error {
+        NSError(domain: "NewsAPI", code: code, userInfo: [NSLocalizedDescriptionKey: description])
+    }
     
     private func generateSearchURL(from query: String) -> URL {
         
@@ -64,10 +68,6 @@ struct NewsAPI {
         url += "&language=en"
         url += "&q=\(percentEncodedString)"
         return URL(string: url)!
-    }
-    
-    private func generateErrorCode(code: Int = 1, description: String) -> Error {
-        NSError(domain: "NewsAPI", code: code, userInfo: [NSLocalizedDescriptionKey: description])
     }
     
     private func generalNewsURL(from category: Category) -> URL {
